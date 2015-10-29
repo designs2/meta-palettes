@@ -1,5 +1,5 @@
 {
-    "name": "contao-community-alliance/meta-palettes",
+    "name": "designs2/meta-palettes",
     "description": "MetaPalettes extension for Contao OpenSource CMS",
     "keywords": [
         "contao",
@@ -22,19 +22,19 @@
         "issues": "https://github.com/bit3/contao-meta-palettes/issues",
         "wiki": "https://github.com/bit3/contao-meta-palettes/wiki",
         "irc": "irc://irc.freenode.org/contao.dev",
-        "source": "https://github.com/bit3/contao-meta-palettes"
+        "source": "https://github.com/designs2/meta-palettes"
     },
     "require": {
         "php": ">=5.3",
         "contao/core": ">=2.11,<4",
-        "contao-community-alliance/composer-plugin": "~2.0"
+        "contao-community-alliance/composer-plugin": "*"
     },
     "require-dev": {
-        "bit3/php-coding-standard": "@dev",
-        "phpunit/phpunit": ">=3.7.10,<4-dev",
-        "squizlabs/php_codesniffer": "~1.0",
-        "phpmd/phpmd": "~2.0",
-        "contao-community-alliance/dc-general": "~2.0.0@dev"
+        "bit3/php-coding-standard": "*",
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*",
+        "phpmd/phpmd": "*",
+        "contao-community-alliance/dc-general": "*"
     },
     "replace": {
         "contao-legacy/metapalettes": "self.version",
